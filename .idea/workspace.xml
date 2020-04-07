@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e0104cd-2710-479c-b842-f9f0cc3f38b2" name="Default Changelist" comment="" />
+    <list default="true" id="4e0104cd-2710-479c-b842-f9f0cc3f38b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +28,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1a0VDb2aTFdquM4FPm6yQM5at9c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,53 +46,6 @@
     <configuration name="DemoRun" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.demo.Main" />
       <module name="Spring215Demo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Spring215Demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Spring215Demo" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,25 +73,30 @@
       <screen x="67" y="27" width="1578" height="1001" />
     </state>
     <state x="588" y="313" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1578.1001@67.27.1578.1001" timestamp="1585948322353" />
-    <state width="1501" height="228" key="GridCell.Tab.0.bottom" timestamp="1586221995642">
-      <screen x="67" y="27" width="1578" height="1001" />
+    <state width="1501" height="228" key="GridCell.Tab.0.bottom" timestamp="1586222932955">
+      <screen x="67" y="27" width="1573" height="973" />
     </state>
-    <state width="1501" height="228" key="GridCell.Tab.0.bottom/67.27.1578.1001@67.27.1578.1001" timestamp="1586221995642" />
-    <state width="1501" height="228" key="GridCell.Tab.0.center" timestamp="1586221995641">
-      <screen x="67" y="27" width="1578" height="1001" />
+    <state width="1501" height="228" key="GridCell.Tab.0.bottom/67.27.1573.973@67.27.1573.973" timestamp="1586222932955" />
+    <state width="1501" height="228" key="GridCell.Tab.0.bottom/67.27.1578.1001@67.27.1578.1001" timestamp="1586222025030" />
+    <state width="1501" height="228" key="GridCell.Tab.0.center" timestamp="1586222932953">
+      <screen x="67" y="27" width="1573" height="973" />
     </state>
-    <state width="1501" height="228" key="GridCell.Tab.0.center/67.27.1578.1001@67.27.1578.1001" timestamp="1586221995641" />
-    <state width="1501" height="228" key="GridCell.Tab.0.left" timestamp="1586221995635">
-      <screen x="67" y="27" width="1578" height="1001" />
+    <state width="1501" height="228" key="GridCell.Tab.0.center/67.27.1573.973@67.27.1573.973" timestamp="1586222932953" />
+    <state width="1501" height="228" key="GridCell.Tab.0.center/67.27.1578.1001@67.27.1578.1001" timestamp="1586222025029" />
+    <state width="1501" height="228" key="GridCell.Tab.0.left" timestamp="1586222932952">
+      <screen x="67" y="27" width="1573" height="973" />
     </state>
-    <state width="1501" height="228" key="GridCell.Tab.0.left/67.27.1578.1001@67.27.1578.1001" timestamp="1586221995635" />
-    <state width="1501" height="228" key="GridCell.Tab.0.right" timestamp="1586221995641">
-      <screen x="67" y="27" width="1578" height="1001" />
+    <state width="1501" height="228" key="GridCell.Tab.0.left/67.27.1573.973@67.27.1573.973" timestamp="1586222932952" />
+    <state width="1501" height="228" key="GridCell.Tab.0.left/67.27.1578.1001@67.27.1578.1001" timestamp="1586222025028" />
+    <state width="1501" height="228" key="GridCell.Tab.0.right" timestamp="1586222932954">
+      <screen x="67" y="27" width="1573" height="973" />
     </state>
-    <state width="1501" height="228" key="GridCell.Tab.0.right/67.27.1578.1001@67.27.1578.1001" timestamp="1586221995641" />
-    <state x="512" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1586201088702">
-      <screen x="67" y="27" width="1578" height="1001" />
+    <state width="1501" height="228" key="GridCell.Tab.0.right/67.27.1573.973@67.27.1573.973" timestamp="1586222932954" />
+    <state width="1501" height="228" key="GridCell.Tab.0.right/67.27.1578.1001@67.27.1578.1001" timestamp="1586222025030" />
+    <state x="429" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1586278492269">
+      <screen x="67" y="27" width="1285" height="797" />
     </state>
+    <state x="429" y="288" key="com.intellij.ide.util.TipDialog/67.27.1285.797@67.27.1285.797" timestamp="1586278492269" />
     <state x="443" y="299" key="com.intellij.ide.util.TipDialog/67.27.1333.829@67.27.1333.829" timestamp="1586021542062" />
     <state x="512" y="355" key="com.intellij.ide.util.TipDialog/67.27.1578.1001@67.27.1578.1001" timestamp="1586201088702" />
   </component>
