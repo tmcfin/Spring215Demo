@@ -1,5 +1,6 @@
 package com.demo;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
@@ -8,6 +9,9 @@ import org.springframework.web.context.WebApplicationContext;
 
 @Configuration
 public class GreeterConfiguration {
+
+    @Autowired
+    private DatabaseConfiguration databaseConfig;
 
     @Bean
     @Scope(value = "prototype")
@@ -33,7 +37,7 @@ public class GreeterConfiguration {
     //       however, if @PostConstruct is present in that case, afterPropertiesSet method is called.
     @Scope(value = WebApplicationContext.SCOPE_REQUEST, proxyMode = ScopedProxyMode.TARGET_CLASS)
     public FriendlyGreeter friendlyGreeter() {
-        return new FriendlyGreeter();
+        return new FriendlyGreeter(databaseConfig);
     }
 
 }
