@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e0104cd-2710-479c-b842-f9f0cc3f38b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/DatabaseConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/FriendlyGreeter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/GreetAgain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/GreetInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/Greeter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/GreeterBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/GreeterConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/NotActuallyABean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/RestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/RestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Demo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/DatabaseConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/Factory$Document.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/Factory$DocumentInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/Factory$Printer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/FriendlyGreeter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/GreetAgain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/GreetInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/Greeter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/GreeterBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/GreeterConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/NotActuallyABean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/RestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/RestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/RestController.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586373789595</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="workspace commit">
+      <created>1586538550527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586538550527</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,10 +125,10 @@
       <screen x="67" y="27" width="1578" height="1001" />
     </state>
     <state x="586" y="265" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1578.1001@67.27.1578.1001" timestamp="1586476004746" />
-    <state x="464" y="101" width="777" height="847" key="CommitChangelistDialog2" timestamp="1586373788950">
+    <state x="464" y="101" width="912" height="847" key="CommitChangelistDialog2" timestamp="1586538550081">
       <screen x="67" y="27" width="1578" height="1001" />
     </state>
-    <state x="464" y="101" width="777" height="847" key="CommitChangelistDialog2/67.27.1578.1001@67.27.1578.1001" timestamp="1586373788950" />
+    <state x="464" y="101" width="912" height="847" key="CommitChangelistDialog2/67.27.1578.1001@67.27.1578.1001" timestamp="1586538550081" />
     <state width="1487" height="164" key="GridCell.Tab.0.bottom" timestamp="1586500969228">
       <screen x="67" y="27" width="1578" height="1001" />
     </state>
