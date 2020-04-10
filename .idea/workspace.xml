@@ -2,16 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e0104cd-2710-479c-b842-f9f0cc3f38b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/DatabaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/DatabaseConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/FriendlyGreeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/FriendlyGreeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/GreeterConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/GreeterConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/FriendlyGreeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/FriendlyGreeter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/GreeterConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/GreeterConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/DatabaseConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/FriendlyGreeter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/GreetAgain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/GreetInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/Greeter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/GreeterBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/GreeterConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/NotActuallyABean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/RestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/RestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/DatabaseConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/Factory$Document.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/Factory$DocumentInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/Factory$Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/FriendlyGreeter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/GreetAgain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/GreetInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/Greeter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/GreeterBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/GreeterConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/NotActuallyABean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/RestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/RestController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +49,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1a0VDb2aTFdquM4FPm6yQM5at9c" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +65,7 @@
       <recent name="com.demo" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CustomerRepositoryTest">
     <configuration name="DemoRun" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.demo.Main" />
       <module name="Spring215Demo" />
@@ -52,6 +73,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomerRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerRepositoryTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -91,38 +126,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="workspace commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="485" y="131" width="726" height="771" key="#DemoRun" timestamp="1586476041878">
+      <screen x="67" y="27" width="1578" height="1001" />
+    </state>
+    <state x="485" y="131" width="726" height="771" key="#DemoRun/67.27.1578.1001@67.27.1578.1001" timestamp="1586476041878" />
     <state x="314" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585948340110">
       <screen x="67" y="27" width="1578" height="1001" />
     </state>
     <state x="314" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1578.1001@67.27.1578.1001" timestamp="1585948340110" />
+    <state x="661" y="203" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1586475497248">
+      <screen x="67" y="27" width="1578" height="1001" />
+    </state>
+    <state x="661" y="203" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1578.1001@67.27.1578.1001" timestamp="1586475497248" />
     <state x="588" y="313" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585948322353">
       <screen x="67" y="27" width="1578" height="1001" />
     </state>
     <state x="588" y="313" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1578.1001@67.27.1578.1001" timestamp="1585948322353" />
+    <state x="586" y="265" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586476004746">
+      <screen x="67" y="27" width="1578" height="1001" />
+    </state>
+    <state x="586" y="265" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1578.1001@67.27.1578.1001" timestamp="1586476004746" />
     <state x="464" y="101" width="777" height="847" key="CommitChangelistDialog2" timestamp="1586373788950">
       <screen x="67" y="27" width="1578" height="1001" />
     </state>
     <state x="464" y="101" width="777" height="847" key="CommitChangelistDialog2/67.27.1578.1001@67.27.1578.1001" timestamp="1586373788950" />
-    <state width="1487" height="226" key="GridCell.Tab.0.bottom" timestamp="1586440223076">
+    <state width="1487" height="164" key="GridCell.Tab.0.bottom" timestamp="1586500969228">
       <screen x="67" y="27" width="1578" height="1001" />
     </state>
     <state width="1501" height="228" key="GridCell.Tab.0.bottom/67.27.1573.973@67.27.1573.973" timestamp="1586222932955" />
-    <state width="1487" height="226" key="GridCell.Tab.0.bottom/67.27.1578.1001@67.27.1578.1001" timestamp="1586440223076" />
-    <state width="1487" height="226" key="GridCell.Tab.0.center" timestamp="1586440223075">
+    <state width="1487" height="164" key="GridCell.Tab.0.bottom/67.27.1578.1001@67.27.1578.1001" timestamp="1586500969228" />
+    <state width="1487" height="164" key="GridCell.Tab.0.center" timestamp="1586500969226">
       <screen x="67" y="27" width="1578" height="1001" />
     </state>
     <state width="1501" height="228" key="GridCell.Tab.0.center/67.27.1573.973@67.27.1573.973" timestamp="1586222932953" />
-    <state width="1487" height="226" key="GridCell.Tab.0.center/67.27.1578.1001@67.27.1578.1001" timestamp="1586440223075" />
-    <state width="1487" height="226" key="GridCell.Tab.0.left" timestamp="1586440223074">
+    <state width="1487" height="164" key="GridCell.Tab.0.center/67.27.1578.1001@67.27.1578.1001" timestamp="1586500969226" />
+    <state width="1487" height="164" key="GridCell.Tab.0.left" timestamp="1586500969222">
       <screen x="67" y="27" width="1578" height="1001" />
     </state>
     <state width="1501" height="228" key="GridCell.Tab.0.left/67.27.1573.973@67.27.1573.973" timestamp="1586222932952" />
-    <state width="1487" height="226" key="GridCell.Tab.0.left/67.27.1578.1001@67.27.1578.1001" timestamp="1586440223074" />
-    <state width="1487" height="226" key="GridCell.Tab.0.right" timestamp="1586440223075">
+    <state width="1487" height="164" key="GridCell.Tab.0.left/67.27.1578.1001@67.27.1578.1001" timestamp="1586500969222" />
+    <state width="1487" height="164" key="GridCell.Tab.0.right" timestamp="1586500969227">
       <screen x="67" y="27" width="1578" height="1001" />
     </state>
     <state width="1501" height="228" key="GridCell.Tab.0.right/67.27.1573.973@67.27.1573.973" timestamp="1586222932954" />
-    <state width="1487" height="226" key="GridCell.Tab.0.right/67.27.1578.1001@67.27.1578.1001" timestamp="1586440223075" />
+    <state width="1487" height="164" key="GridCell.Tab.0.right/67.27.1578.1001@67.27.1578.1001" timestamp="1586500969227" />
     <state x="512" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1586451949060">
       <screen x="67" y="27" width="1578" height="1001" />
     </state>
