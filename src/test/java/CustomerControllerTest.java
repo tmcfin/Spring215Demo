@@ -40,12 +40,12 @@ public class CustomerControllerTest {
         customer.setName("Tom");
         customer.setAge(25);
 
+        //mvc.perform(post("/customer").contentType(MediaType.APPLICATION_JSON).content(toJson(customer))).andExpect(status().isOk());
         MvcResult mvcResult = mvc.perform(post("/customer").contentType(MediaType.APPLICATION_JSON).content(toJson(customer))).andExpect(status().isOk())
                 .andExpect(status().isOk()).andReturn();
         String contentAsString = mvcResult.getResponse().getContentAsString();
         Integer id = JsonPath.parse(contentAsString).read("$.id");
 
-        //mvc.perform(post("/customer").contentType(MediaType.APPLICATION_JSON).content(toJson(customer))).andExpect(status().isOk());
         //mvc.perform(get("/customer/1")).andExpect(status().isOk()).andExpect(jsonPath("$.id").exists());
         mvc.perform(get("/customer/" + id)).andExpect(status().isOk()).andExpect(jsonPath("$.id").exists());
         //mvc.perform(delete("/customer/1")).andExpect(status().isOk());
